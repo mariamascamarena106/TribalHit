@@ -43,7 +43,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        /*
+        
         timer += Time.deltaTime;
 
         if (timer > 1.5f)
@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour
             appleList.Add(newApple);
 
         }
-        */
+        
         foreach(GameObject apple in appleList)
         {
             apple.transform.position += Vector3.down * gravity * Time.deltaTime;
