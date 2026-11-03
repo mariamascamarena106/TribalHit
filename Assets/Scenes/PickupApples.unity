@@ -253,7 +253,7 @@ MonoBehaviour:
   apple: {fileID: 5118186058403513125, guid: c55049015538f4549956dcb86ed95bf2, type: 3}
   gravity: 2
   PlayerTransform: {fileID: 0}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1629002306}
 --- !u!4 &1336625555
 Transform:
   m_ObjectHideFlags: 0

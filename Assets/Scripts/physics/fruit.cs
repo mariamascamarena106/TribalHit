@@ -13,10 +13,10 @@ public class fruit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
+        
         speed += gravity * Time.deltaTime;
         transform.position += Vector3.down * gravity * Time.deltaTime;
-        */
+        
 
     }
 

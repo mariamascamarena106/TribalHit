@@ -20,6 +20,8 @@ public class player : MonoBehaviour
         float horizontalInput = Input.GetAxis("horizontal");
         transform.position += Vector3.right * horizontalInput * speed * Time.deltaTime;
         
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
